@@ -53,6 +53,8 @@ app.use('/uploads', express.static('uploads'));
 //static path 추가
 app.use('/static', express.static('static'));
 
+//img path 추가
+app.use('/img', express.static('img'));
 
 //session 관련 셋팅
 var connectMongo = require('connect-mongo');
